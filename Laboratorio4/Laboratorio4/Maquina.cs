@@ -1,12 +1,13 @@
 ﻿using System;
 namespace Laboratorio4
 {
-    public abstract class Maquina
+    public abstract class Maquina : IProcesos
     {
         public Maquina()
         {
         }
 
+        public string nombre;
         public int memoriaMaxima;
         public int memoriaActual = 0;
 

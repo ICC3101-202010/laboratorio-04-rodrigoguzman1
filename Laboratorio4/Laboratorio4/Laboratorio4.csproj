@@ -38,6 +38,8 @@
     <Compile Include="Verificacion.cs" />
     <Compile Include="Empaque.cs" />
     <Compile Include="Recepcion.cs" />
+    <Compile Include="ComputradorCentral.cs" />
+    <Compile Include="IProcesos.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

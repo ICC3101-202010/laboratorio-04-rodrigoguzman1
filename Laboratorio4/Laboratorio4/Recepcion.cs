@@ -3,9 +3,10 @@ namespace Laboratorio4
 {
     public class Recepcion : Maquina
     {
-        public Recepcion(int memoria)
+        public Recepcion(int memoria, string nombre)
         {
             this.memoriaMaxima = memoria;
+            this.nombre = nombre;
         }
 
         public override void Apagado()

@@ -3,9 +3,10 @@ namespace Laboratorio4
 {
     public class Almacenamiento : Maquina
     {
-        public Almacenamiento(int memoria)
+        public Almacenamiento(int memoria, string nombre)
         {
             this.memoriaMaxima = memoria;
+            this.nombre = nombre;
         }
 
 

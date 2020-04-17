@@ -3,9 +3,10 @@ namespace Laboratorio4
 {
     public class Empaque : Maquina
     {
-        public Empaque(int memoria)
+        public Empaque(int memoria, string nombre)
         {
             this.memoriaMaxima = memoria;
+            this.nombre = nombre;
         }
 
         public override void Apagado()
